@@ -6,7 +6,7 @@
 Clinder.serve(new MyApp)
 
 // My app
-class MyApp extends ClinderApp {
+class MyApp implements ClinderApp {
     public void run(ClinderArgs args) {
         // Gets argument by name or default value
         args.getFirst("name", "unnamed");
